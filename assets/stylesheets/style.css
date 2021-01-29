@@ -1,11 +1,13 @@
 :root {
     --bg-color: #16161d;
     --color-text: #fff;
+    --color-ball: #16161d;
 }
 
 body.light {
 	--bg-color: #fff;
     --color-text: #16161d;
+    --color-ball: #fff;
 }
 
 * {
@@ -42,7 +44,7 @@ nav {
 }
 
 .label .ball {
-	background-color: #fff;
+	background-color: var(--color-ball);
 	border-radius: 50%;
 	position: absolute;
 	top: 2px;
